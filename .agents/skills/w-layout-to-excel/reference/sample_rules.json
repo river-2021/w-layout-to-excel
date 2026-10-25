@@ -1,0 +1,19 @@
+{
+  "zones": [
+    {"prefix": "QX", "rack_ids": ["R01", "R03"]},
+    {"prefix": "YT", "rack_ids": ["R02", "R04"]}
+  ],
+  "code": {
+    "segments": ["zone", "aisle", "rack_group", "level"],
+    "sep": "-",
+    "pads": {"zone": 0, "aisle": 2, "rack_group": 2, "level": 0},
+    "rack_group_scope": "aisle",
+    "position_count": 1,
+    "serpentine": {"enabled": true, "start_corner": "bottom_left", "first_dir": "right"}
+  },
+  "levels": {"mode": "global", "count": 2},
+  "orientation": {"transpose": false},
+  "style": {"fill": "D9D9D9", "stroke": "808080"},
+  "sheet_name": "layout",
+  "cell_size": {"col_width": 18}
+}

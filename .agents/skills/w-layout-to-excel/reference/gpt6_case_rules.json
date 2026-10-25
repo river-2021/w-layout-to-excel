@@ -1,0 +1,73 @@
+{
+  "zones": [
+    {
+      "prefix": "E",
+      "rack_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R06",
+        "R10",
+        "R14",
+        "R18",
+        "R20",
+        "R21",
+        "R22"
+      ]
+    },
+    {
+      "prefix": "F",
+      "rack_ids": [
+        "R23",
+        "R24",
+        "R25",
+        "R26",
+        "R27",
+        "R28",
+        "R29",
+        "R30",
+        "R31",
+        "R32",
+        "R33",
+        "R34",
+        "R35"
+      ]
+    }
+  ],
+  "code": {
+    "segments": [
+      "zone",
+      "aisle",
+      "rack_group",
+      "level",
+      "position"
+    ],
+    "sep": "-",
+    "pads": {
+      "zone": 0,
+      "aisle": 2,
+      "rack_group": 2,
+      "level": 0,
+      "position": 2
+    },
+    "numbering_mode": "aisle_sides",
+    "position_count": 1,
+    "continuous_segments": true
+  },
+  "levels": {
+    "mode": "global",
+    "count": 1
+  },
+  "orientation": {
+    "mode": "mirror"
+  },
+  "style": {
+    "fill": "D9D9D9",
+    "stroke": "808080"
+  },
+  "sheet_name": "layout",
+  "cell_size": {
+    "col_width": 14
+  }
+}
